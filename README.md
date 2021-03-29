@@ -4,12 +4,11 @@
 <p align="center">C Language Version of the AES Encrypt/Decrypt Code</p>
 
 <p align="center">
-    <a href="https://travis-ci.org/songshuaisong/AES-Encrypt-Decrypt"><img alt="Build Status" src="https://travis-ci.com/songshuaisong/AES-Encrypt-Decrypt.svg?branch=master"></a>
+    <a href="https://travis-ci.org/songshuaisong/AES-Encrypt-Decrypt"><img alt="Build Status" src="https://travis-ci.com/songshuaisong/AES-Encrypt-Decrypt.svg?branch=main"></a> 
 	<a href="http://www.kernel.org"><img alt="Platform (GNU/Linux)" src="https://img.shields.io/badge/platform-GNU/Linux-blue.svg"></a>
     <a href="http://www.windows.org"><img alt="Platform (MinGW/Windows)" src="https://img.shields.io/badge/platform-MinGW/Windows-blue.svg"></a>
     <a href="http://www.apache.org"><img alt="license-Apache2.0" src="https://img.shields.io/badge/license-Apache2.0-yellow.svg"></a>
-	<a href="https://mit-license.org/"><img alt="license-Apache2.0" src="https://img.shields.io/badge/license-MIT-yellow.svg"></a>
-    <a href="https://cmake.org/"><img alt="cmake" src="https://img.shields.io/badge/cmake->3.0-green.svg"></a>
+	<a href="https://mit-license.org/"><img alt="license-Apache2.0" src="https://img.shields.io/badge/license-MIT-yellow.svg"></a> 
 </p>
 
 <br>
