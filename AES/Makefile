@@ -1,8 +1,9 @@
 main:
 	gcc main.c aes.c -o main 
 
-test:
+run:
+	./main
 	@echo success
 	
 clean:
-	rm main *.exe
+	rm -rf main *.exe

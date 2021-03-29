@@ -1,7 +1,8 @@
 all:
 	gcc main.c aes.c -o main
 
-test:
+run:
+	./main
 	@echo success
 
 clean:

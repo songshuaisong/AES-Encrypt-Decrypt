@@ -47,15 +47,15 @@ int main(int argc, const char **argv)
 	puts("SMS4Encrypt src:");
 	SMS4SetKey(NULL, 1);
 
-	printf("0x%08x, 0x%08x, 0x%08x, 0x%08x. \n",
+	printf("0x%08lx, 0x%08lx, 0x%08lx, 0x%08lx. \n",
 		   pData[0], pData[1], pData[2], pData[3]);
 	SMS4Encrypt(pData, sizeof(pData), ENRK);
 	puts("SMS4Encrypt enc:");
-	printf("0x%08x, 0x%08x, 0x%08x, 0x%08x. \n",
+	printf("0x%08lx, 0x%08lx, 0x%08lx, 0x%08lx. \n",
 		   pData[0], pData[1], pData[2], pData[3]);
 	SMS4Decrypt(pData, sizeof(pData), DERK);
 	puts("SMS4Encrypt dec:");
-	printf("0x%08x, 0x%08x, 0x%08x, 0x%08x. \n",
+	printf("0x%08lx, 0x%08lx, 0x%08lx, 0x%08lx. \n",
 		   pData[0], pData[1], pData[2], pData[3]);
 
 	return 0;
