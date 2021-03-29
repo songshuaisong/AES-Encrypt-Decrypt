@@ -4,4 +4,5 @@ notifications:
     on_success: always
     on_failure: always
 script:
-  - .travis.run.sh
+  - chmod 777 .travis.run.sh
+  - ./.travis.run.sh
