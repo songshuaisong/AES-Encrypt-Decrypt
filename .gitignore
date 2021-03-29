@@ -1,0 +1,9 @@
+# 忽略*.o和*.a文件
+*.[oa]
+# 忽略 *.out 文件和文件夹
+*.out
+*.exe
+.dist
+main
+test
+
